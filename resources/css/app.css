@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import './animations.css';
 
 @plugin 'tailwindcss-animate';
 
@@ -6,4 +7,18 @@
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
 @custom-variant dark (&:is(.dark *));
+
+/* Custom Cura Colors */
+@theme {
+  --color-pistachio-50: #f7fdf4;
+  --color-pistachio-100: #ecfce5;
+  --color-pistachio-200: #d9f7be;
+  --color-pistachio-300: #b7eb8f;
+  --color-pistachio-400: #95de64;
+  --color-pistachio-500: #73d13d;
+  --color-pistachio-600: #52c41a;
+  --color-pistachio-700: #389e0d;
+  --color-pistachio-800: #237804;
+  --color-pistachio-900: #135200;
+}
 
