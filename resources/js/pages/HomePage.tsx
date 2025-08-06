@@ -8,6 +8,7 @@ import ImageEight from '@/images/image-8.jpeg';
 import HeaderComponent from '@/components/HeaderComponent';
 import HeroComponent from '@/components/HeroComponent';
 import AboutComponent from '@/components/AboutComponent';
+import CommandComponent from '@/components/CommandComponent';
 
 const HomePage = () => {
   const [formData, setFormData] = useState({ nom: '', telephone: '', message: '' });
@@ -20,7 +21,7 @@ const HomePage = () => {
 
       <AboutComponent />
 
-
+      <CommandComponent formData={formData} setFormData={setFormData} ImageThree={ImageThree}/>
 
       {/* Why Choose Liderm */}
       <section id="why-choose" className="py-20 bg-white">
