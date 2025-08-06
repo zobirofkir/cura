@@ -1,6 +1,5 @@
-import ImageTwo from '@/images/image-2.jpeg';
 
-const AboutComponent = () => {
+const AboutComponent = ( {ImageTwo} ) => {
   return (
     <>
     {/* About Section */}

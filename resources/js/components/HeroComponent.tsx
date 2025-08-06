@@ -1,6 +1,5 @@
-import ImageOne from '@/images/image-1.jpeg';
 
-const HeroComponent = () => {
+const HeroComponent = ( {ImageOne} ) => {
   return (
     <>
     {/* Hero Section */}

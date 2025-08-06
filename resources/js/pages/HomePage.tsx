@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import ImageOne from '@/images/image-1.jpeg';
+import ImageTwo from '@/images/image-2.jpeg';
 import ImageThree from '@/images/image-3.jpeg';
 import ImageFour from '@/images/image-4.jpeg';
 import ImageFive from '@/images/image-5.jpeg';
@@ -21,9 +23,9 @@ const HomePage = () => {
     <div className="min-h-screen bg-gradient-to-br from-pistachio-50 to-purple-50">
       <HeaderComponent />
 
-      <HeroComponent />
+      <HeroComponent ImageOne={ImageOne}/>
 
-      <AboutComponent />
+      <AboutComponent ImageTwo={ImageTwo} />
 
       <CommandComponent formData={formData} setFormData={setFormData} ImageThree={ImageThree}/>
 
