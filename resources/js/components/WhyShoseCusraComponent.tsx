@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WhyShoseCusraComponent = ( {ImageFour , ImageFive , ImageSex , ImageSeven} ) => {
+const WhyShoseCusraComponent = ( {ImageFour , ImageFive , ImageThree , ImageSeven} ) => {
   return (
     <>
     {/* Why Choose Liderm */}
@@ -24,7 +24,7 @@ const WhyShoseCusraComponent = ( {ImageFour , ImageFive , ImageSex , ImageSeven}
               <p className="text-sm text-gray-500">Résultats visibles dès les premières applications</p>
             </div>
             <div className="group text-center p-6 rounded-2xl bg-gradient-to-br from-orange-50 to-orange-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <img src={ImageSex} alt="Sécurité" className="w-full h-32 object-cover rounded-xl mb-4" />
+              <img src={ImageThree} alt="Sécurité" className="w-full h-32 object-cover rounded-xl mb-4" />
               <h4 className="text-xl font-bold text-gray-900 mb-2">Sécurité Garantie</h4>
               <p className="text-gray-600 mb-2">أمان مضمون</p>
               <p className="text-sm text-gray-500">Testé dermatologiquement, sans effets secondaires</p>
