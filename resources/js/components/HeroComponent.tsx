@@ -1,4 +1,3 @@
-
 const HeroComponent = ( {ImageOne} ) => {
   return (
     <>
@@ -13,13 +12,13 @@ const HeroComponent = ( {ImageOne} ) => {
                 </span>
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-800 mb-4 font-semibold">
-                Soins dermatologiques avancés
+                Produits 100% naturels certifiés
               </h2>
               <h3 className="text-xl text-gray-600 mb-6 font-arabic">
-                العناية المتقدمة بالبشرة والجمال
+                منتجات طبيعية 100% معتمدة
               </h3>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Découvrez notre gamme complète de produits dermatologiques de haute qualité pour une peau saine et éclatante.
+                Cura propose des produits 100% naturels, certifiés ONSSA, Halal et ISO, garantissant une qualité optimale pour vos objectifs de sèche. Nos formules sont spécialement conçues pour brûler les graisses, réduire l'appétit et affiner votre silhouette de manière efficace. Chaque produit est fabriqué dans le respect des normes strictes, pour une expérience sûre et performante.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-gradient-to-r from-pistachio-500 to-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-pistachio-600 hover:to-green-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
