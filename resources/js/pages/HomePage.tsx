@@ -6,6 +6,7 @@ import ImageFour from '@/images/image-4.jpeg';
 import ImageFive from '@/images/image-5.jpeg';
 import ImageSeven from '@/images/image-7.jpeg';
 import ImageEight from '@/images/image-8.jpeg';
+import PackImage from '@/images/pack.png';
 import HeaderComponent from '@/components/HeaderComponent';
 import HeroComponent from '@/components/HeroComponent';
 import AboutComponent from '@/components/AboutComponent';
@@ -41,14 +42,14 @@ const HomePage = () => {
 
       <PackComponent
         title="Soin de Peau Premium"
-        price={299}
-        originalPrice={399}
+        price={300}
+        originalPrice={400}
         features={[
           'Traitement de nettoyage en profondeur',
           'Application de sérum anti-âge',
           'Thérapie hydratante'
         ]}
-        image={ImageThree}
+        image={PackImage}
         popular={true}
         description="Pack de soins complet"
         duration="30 jours"

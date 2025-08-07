@@ -60,9 +60,9 @@ const PackComponent: React.FC<PackProps> = ({
 
         <div className="mb-6">
           <div className="flex items-baseline gap-2 mb-1">
-            <span className="text-3xl font-bold text-pistachio-600">${price}</span>
+            <span className="text-3xl font-bold text-pistachio-600">{price} MAD</span>
             {originalPrice && (
-              <span className="text-lg text-gray-400 line-through">${originalPrice}</span>
+              <span className="text-lg text-gray-400 line-through">{originalPrice} MAD</span>
             )}
           </div>
           <p className="text-sm text-gray-500">Traitement {duration}</p>
@@ -93,6 +93,10 @@ const PackComponent: React.FC<PackProps> = ({
               ? 'bg-pistachio-500 text-white hover:bg-pistachio-600 shadow-lg hover:shadow-xl'
               : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
           }`}
+          onClick={() => {
+            const commandSection = document.getElementById('command')
+            commandSection?.scrollIntoView({ behavior: 'smooth' })
+          }}
         >
           Choisir le Pack
         </motion.button>
