@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 import React, { useState, useRef, useEffect } from 'react'
+import BeforImage from "@/images/image-1.jpeg";
+import AfterImage from "@/images/image-2.jpeg";
 
 interface BeforeAfterProps {
   beforeImage: string
@@ -83,7 +85,7 @@ const BeforAfterComponent: React.FC<BeforeAfterProps> = ({
         {/* After Image (Background) */}
         <div className="absolute inset-0">
           <img
-            src={afterImage}
+            src={AfterImage}
             alt={afterLabel}
             className="w-full h-full object-cover"
             draggable={false}
@@ -104,7 +106,7 @@ const BeforAfterComponent: React.FC<BeforeAfterProps> = ({
           style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
         >
           <img
-            src={beforeImage}
+            src={BeforImage}
             alt={beforeLabel}
             className="w-full h-full object-cover"
             draggable={false}
