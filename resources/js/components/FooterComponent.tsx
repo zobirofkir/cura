@@ -230,8 +230,8 @@ const FooterComponent = () => {
               <motion.div className="space-y-3 sm:space-y-4">
                 {[
                   { icon: "📧", text: "contact@cura.com", type: "email" },
-                  { icon: "📞", text: "+213 XXX XXX XXX", type: "phone" },
-                  { icon: "📍", text: "Alger, Algérie", type: "location" },
+                  { icon: "📞", text: "+212 XXX XXX XXX", type: "phone" },
+                  { icon: "📍", text: "Maroc, Morocco", type: "location" },
                   { icon: "⏰", text: "24/7 Support", type: "support" }
                 ].map((contact, index) => (
                   <motion.div
