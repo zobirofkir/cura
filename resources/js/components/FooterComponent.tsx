@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Logo from '@/images/logo/logo.jpeg'
 
 const FooterComponent = () => {
   const containerVariants = {
@@ -99,10 +100,14 @@ const FooterComponent = () => {
                 style={{ transformStyle: 'preserve-3d' }}
               >
                 <motion.div 
-                  className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-green-600 via-purple-600 to-orange-500 bg-clip-text text-transparent"
+                  className="flex items-center"
                   whileHover={{ rotateY: 5, scale: 1.05 }}
                 >
-                  Cura
+                  <img 
+                    src={Logo} 
+                    alt="Cura Logo" 
+                    className="h-12 sm:h-16 w-auto object-contain"
+                  />
                 </motion.div>
                 
                 <motion.p 
