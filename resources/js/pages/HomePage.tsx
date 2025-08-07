@@ -29,8 +29,6 @@ const HomePage = () => {
 
       <HeroComponent ImageOne={ImageOne}/>
 
-      <AboutComponent ImageTwo={ImageTwo} />
-
       <BeforAfterComponent
         BeforImage={BeforImage}
         AfterImage={AfterImage}
@@ -39,6 +37,7 @@ const HomePage = () => {
         className="max-w-2xl"
       />
 
+      <AboutComponent ImageTwo={ImageTwo} />
 
       <PackComponent
         title="Soin de Peau Premium"
