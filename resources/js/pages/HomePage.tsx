@@ -14,6 +14,7 @@ import WhyShoseCusraComponent from '@/components/WhyShoseCusraComponent';
 import AdditionalComponent from '@/components/AdditionalComponent';
 import CtaComponent from '@/components/CtaComponent';
 import FooterComponent from '@/components/FooterComponent';
+import BeforAfterComponent from '@/components/BeforAfterComponent';
 
 const HomePage = () => {
   const [formData, setFormData] = useState({ nom: '', telephone: '', message: '' });
@@ -25,6 +26,8 @@ const HomePage = () => {
       <HeroComponent ImageOne={ImageOne}/>
 
       <AboutComponent ImageTwo={ImageTwo} />
+
+      <BeforAfterComponent />
 
       <CommandComponent formData={formData} setFormData={setFormData} ImageThree={ImageThree}/>
 
