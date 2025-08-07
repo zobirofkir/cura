@@ -18,7 +18,6 @@ const HeaderComponent = () => {
               <a href="#hero" className="text-gray-700 hover:text-pistachio-600 transition-colors">Accueil</a>
               <a href="#about" className="text-gray-700 hover:text-pistachio-600 transition-colors">À propos</a>
               <a href="#command" className="text-gray-700 hover:text-pistachio-600 transition-colors">Commander</a>
-              <a href="#why-choose" className="text-gray-700 hover:text-pistachio-600 transition-colors">Pourquoi nous</a>
             </div>
             <a href='#command' className="bg-gradient-to-r from-pistachio-500 to-green-600 text-white px-6 py-2 rounded-full hover:from-pistachio-600 hover:to-green-700 transform hover:scale-105 transition-all duration-200">
               اتصل بنا
