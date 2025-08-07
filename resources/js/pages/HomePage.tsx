@@ -16,6 +16,8 @@ import CtaComponent from '@/components/CtaComponent';
 import FooterComponent from '@/components/FooterComponent';
 import BeforAfterComponent from '@/components/BeforAfterComponent';
 import PackComponent from '@/components/PackComponent';
+import BeforImage from "@/images/befor-after/befor.jpg";
+import AfterImage from "@/images/befor-after/after.jpg";
 
 const HomePage = () => {
   const [formData, setFormData] = useState({ nom: '', telephone: '', message: '' });
@@ -28,7 +30,15 @@ const HomePage = () => {
 
       <AboutComponent ImageTwo={ImageTwo} />
 
-      <BeforAfterComponent />
+      <BeforAfterComponent
+        BeforImage={BeforImage}
+        AfterImage={AfterImage}
+        beforeLabel="Day 1"
+        afterLabel="Day 30"
+        className="max-w-2xl"
+      />
+
+
 
       <PackComponent />
 

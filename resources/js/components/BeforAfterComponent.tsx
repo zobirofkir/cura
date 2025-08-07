@@ -1,19 +1,17 @@
 import { motion } from 'framer-motion'
 import React, { useState, useRef, useEffect } from 'react'
-import BeforImage from "@/images/befor-after/befor.jpg";
-import AfterImage from "@/images/befor-after/after.jpg";
 
 interface BeforeAfterProps {
-  beforeImage: string
-  afterImage: string
+  BeforImage: string
+  AfterImage: string
   beforeLabel?: string
   afterLabel?: string
   className?: string
 }
 
 const BeforAfterComponent: React.FC<BeforeAfterProps> = ({
-  beforeImage,
-  afterImage,
+  BeforImage,
+  AfterImage,
   beforeLabel = 'Before',
   afterLabel = 'After',
   className = ''
