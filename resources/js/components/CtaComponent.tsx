@@ -33,7 +33,7 @@ const CtaComponent = () => {
   }
 
   return (
-    <section className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-pistachio-600 via-purple-600 to-orange-500 overflow-hidden">
+    <section className="relative py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-emerald-500 via-teal-600 to-cyan-700 overflow-hidden">
       {/* Animated Background Elements */}
       <motion.div 
         className="absolute inset-0 opacity-20"
@@ -104,7 +104,7 @@ const CtaComponent = () => {
               Transformez votre corps
             </motion.span>
             <motion.span 
-              className="block bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent"
+              className="block bg-gradient-to-r from-amber-300 to-yellow-400 bg-clip-text text-transparent"
               whileHover={{ rotateX: -5, scale: 1.02 }}
             >
               dès aujourd'hui
@@ -183,7 +183,7 @@ const CtaComponent = () => {
               
               {/* Animated Background */}
               <motion.div 
-                className="absolute inset-0 bg-gradient-to-r from-green-400 to-pistachio-500"
+                className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-teal-500"
                 initial={{ x: '-100%' }}
                 whileHover={{ x: 0 }}
                 transition={{ duration: 0.3 }}
