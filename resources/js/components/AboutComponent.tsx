@@ -153,7 +153,7 @@ const AboutComponent = ({ ImageTwo }) => {
               <motion.img 
                 src={ImageTwo} 
                 alt="À propos de Cura" 
-                className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl shadow-2xl"
+                className="w-full h-full object-cover rounded-2xl shadow-2xl"
                 whileHover={!isMobile ? { 
                   boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
                 } : {}}
