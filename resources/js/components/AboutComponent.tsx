@@ -201,28 +201,28 @@ const AboutComponent = ({ ImageTwo }) => {
                 }
               } : {}}
             >
-              À propos du produit
+              Notre Histoire
             </motion.h2>
             
             <motion.h3 
               className="text-xl sm:text-2xl font-bold text-purple-600 mb-4 font-arabic"
               variants={itemVariants}
             >
-              حول المنتج
+              قصتنا
             </motion.h3>
             
             <motion.p 
               className="text-base sm:text-lg text-gray-600 mb-4 lg:mb-6 leading-relaxed"
               variants={itemVariants}
             >
-              Cura est une marque leader dans le domaine des soins dermatologiques, offrant des solutions innovantes pour tous types de peau. Nos produits sont formulés avec des ingrédients de haute qualité et testés dermatologiquement.
+              Cura propose des produits 100% naturels, certifiés ONSSA, Halal et ISO, garantissant une qualité optimale pour vos objectifs de sèche. Nos formules sont spécialement conçues pour brûler les graisses, réduire l'appétit et affiner votre silhouette de manière efficace.
             </motion.p>
             
             <motion.p 
               className="text-base sm:text-lg text-gray-600 mb-6 lg:mb-8 leading-relaxed font-arabic"
               variants={itemVariants}
             >
-              كورا هي علامة تجارية رائدة في مجال العناية بالبشرة، تقدم حلولاً مبتكرة لجميع أنواع البشرة. منتجاتنا مصنوعة من مكونات عالية الجودة ومختبرة من قبل أطباء الجلدية.
+              كورا تقدم منتجات طبيعية 100%، معتمدة من ONSSA وحلال وISO، مما يضمن جودة مثلى لأهداف التنحيف. تركيباتنا مصممة خصيصاً لحرق الدهون وتقليل الشهية وتنحيف القوام بفعالية.
             </motion.p>
             
             <motion.div 
@@ -325,9 +325,9 @@ const AboutComponent = ({ ImageTwo }) => {
                   animate={isInView ? { scale: 1, rotateY: 0 } : { scale: 0, rotateY: isMobile ? -90 : 0 }}
                   transition={{ delay: 1, type: "spring", stiffness: 200 }}
                 >
-                  24h
+                  ISO
                 </motion.div>
-                <div className="text-xs sm:text-sm text-gray-600 font-medium relative z-10">Protection</div>
+                <div className="text-xs sm:text-sm text-gray-600 font-medium relative z-10">Certifié</div>
               </motion.div>
             </motion.div>
           </motion.div>
