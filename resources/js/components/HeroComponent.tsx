@@ -288,7 +288,7 @@ const HeroComponent = ({ ImageOne }) => {
               <motion.img 
                 src={ImageOne} 
                 alt="Produits Cura" 
-                className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-3xl"
+                className="w-full h-full object-cover rounded-3xl"
                 style={{
                   transformStyle: 'preserve-3d'
                 }}
