@@ -192,7 +192,7 @@ const CommandComponent = ({ formData, setFormData, ImageThree }) => {
               <motion.img 
                 src={ImageThree} 
                 alt="Commander Cura" 
-                className="relative w-full h-64 sm:h-80 lg:h-96 object-cover rounded-3xl shadow-2xl border-4 border-white/20"
+                className="relative w-full h-full object-cover rounded-3xl shadow-2xl border-4 border-white/20"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
