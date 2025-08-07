@@ -26,13 +26,15 @@ const PackComponent: React.FC<PackProps> = ({
   className = ''
 }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      whileHover={{ y: -5 }}
-      className={`relative bg-white rounded-3xl shadow-xl overflow-hidden ${popular ? 'ring-4 ring-pistachio-500' : ''} ${className}`}
-    >
+    <div className="py-8 px-4">
+      <div className="max-w-4xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          whileHover={{ y: -5 }}
+          className={`relative bg-white rounded-3xl shadow-xl overflow-hidden ${popular ? 'ring-4 ring-pistachio-500' : ''} ${className}`}
+        >
       {popular && (
         <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
           <div className="bg-pistachio-500 text-white px-6 py-2 rounded-full text-sm font-bold flex items-center gap-1">
@@ -102,6 +104,8 @@ const PackComponent: React.FC<PackProps> = ({
         </motion.button>
       </div>
     </motion.div>
+      </div>
+    </div>
   )
 }
 
