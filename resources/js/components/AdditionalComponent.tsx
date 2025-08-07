@@ -224,7 +224,7 @@ const AdditionalComponent = ({ ImageEight }) => {
                 <motion.img 
                   src={ImageEight} 
                   alt="Innovation et Recherche" 
-                  className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl shadow-xl"
+                  className="w-full h-full object-cover rounded-2xl shadow-xl"
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
                 />
