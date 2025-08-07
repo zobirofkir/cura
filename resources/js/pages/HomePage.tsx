@@ -15,6 +15,7 @@ import AdditionalComponent from '@/components/AdditionalComponent';
 import CtaComponent from '@/components/CtaComponent';
 import FooterComponent from '@/components/FooterComponent';
 import BeforAfterComponent from '@/components/BeforAfterComponent';
+import PackComponent from '@/components/PackComponent';
 
 const HomePage = () => {
   const [formData, setFormData] = useState({ nom: '', telephone: '', message: '' });
@@ -28,6 +29,8 @@ const HomePage = () => {
       <AboutComponent ImageTwo={ImageTwo} />
 
       <BeforAfterComponent />
+
+      <PackComponent />
 
       <CommandComponent formData={formData} setFormData={setFormData} ImageThree={ImageThree}/>
 
