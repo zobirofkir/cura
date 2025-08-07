@@ -48,7 +48,7 @@ const HomePage = () => {
           'Application de sérum anti-âge',
           'Thérapie hydratante'
         ]}
-        image="/path/to/image.jpg"
+        image={ImageThree}
         popular={true}
         description="Pack de soins complet"
         duration="30 jours"
