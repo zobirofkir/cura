@@ -12,8 +12,8 @@ interface BeforeAfterProps {
 const BeforAfterComponent: React.FC<BeforeAfterProps> = ({
   BeforImage,
   AfterImage,
-  beforeLabel = 'Before',
-  afterLabel = 'After',
+  beforeLabel = 'Avant',
+  afterLabel = 'Après',
   className = ''
 }) => {
   const [sliderPosition, setSliderPosition] = useState(50)
@@ -146,7 +146,7 @@ const BeforAfterComponent: React.FC<BeforeAfterProps> = ({
           transition={{ delay: 1, duration: 0.5 }}
           className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/70 text-white px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm hidden sm:block"
         >
-          Click and drag to compare
+          Cliquez et faites glisser pour comparer
         </motion.div>
       </div>
     </motion.div>

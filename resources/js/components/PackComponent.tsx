@@ -37,7 +37,7 @@ const PackComponent: React.FC<PackProps> = ({
         <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
           <div className="bg-pistachio-500 text-white px-6 py-2 rounded-full text-sm font-bold flex items-center gap-1">
             <Star className="w-4 h-4 fill-current" />
-            Most Popular
+            Plus Populaire
           </div>
         </div>
       )}
@@ -65,7 +65,7 @@ const PackComponent: React.FC<PackProps> = ({
               <span className="text-lg text-gray-400 line-through">${originalPrice}</span>
             )}
           </div>
-          <p className="text-sm text-gray-500">{duration} treatment</p>
+          <p className="text-sm text-gray-500">Traitement {duration}</p>
         </div>
 
         <div className="space-y-3 mb-6">
@@ -94,7 +94,7 @@ const PackComponent: React.FC<PackProps> = ({
               : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
           }`}
         >
-          Choose Package
+          Choisir le Pack
         </motion.button>
       </div>
     </motion.div>

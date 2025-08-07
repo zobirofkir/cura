@@ -33,14 +33,28 @@ const HomePage = () => {
       <BeforAfterComponent
         BeforImage={BeforImage}
         AfterImage={AfterImage}
-        beforeLabel="Day 1"
-        afterLabel="Day 30"
+        beforeLabel="Jour 1"
+        afterLabel="Jour 30"
         className="max-w-2xl"
       />
 
 
+      <PackComponent
+        title="Soin de Peau Premium"
+        price={299}
+        originalPrice={399}
+        features={[
+          'Traitement de nettoyage en profondeur',
+          'Application de sérum anti-âge',
+          'Thérapie hydratante'
+        ]}
+        image="/path/to/image.jpg"
+        popular={true}
+        description="Pack de soins complet"
+        duration="30 jours"
+      />
 
-      <PackComponent />
+
 
       <CommandComponent formData={formData} setFormData={setFormData} ImageThree={ImageThree}/>
 
