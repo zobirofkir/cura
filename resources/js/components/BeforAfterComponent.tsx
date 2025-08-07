@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import React, { useState, useRef, useEffect } from 'react'
 import BeforImage from "@/images/befor-after/befor.jpg";
-import AfterImage from "@/images/image-2.jpeg";
+import AfterImage from "@/images/befor-after/after.jpg";
 
 interface BeforeAfterProps {
   beforeImage: string
