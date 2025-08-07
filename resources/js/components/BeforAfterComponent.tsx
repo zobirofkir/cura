@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React, { useState, useRef, useEffect } from 'react'
-import BeforImage from "@/images/image-1.jpeg";
+import BeforImage from "@/images/befor-after/befor.jpg";
 import AfterImage from "@/images/image-2.jpeg";
 
 interface BeforeAfterProps {
