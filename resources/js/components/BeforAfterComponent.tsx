@@ -141,16 +141,6 @@ const BeforAfterComponent: React.FC<BeforeAfterProps> = ({
           </motion.div>
         </div>
 
-        {/* Mobile Instructions */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1, duration: 0.5 }}
-          className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/70 text-white px-4 py-2 rounded-full text-xs font-medium backdrop-blur-sm sm:hidden"
-        >
-          Drag to compare
-        </motion.div>
-
         {/* Desktop Instructions */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
