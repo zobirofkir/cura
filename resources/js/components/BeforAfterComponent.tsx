@@ -74,7 +74,7 @@ const BeforAfterComponent: React.FC<BeforeAfterProps> = ({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className={`relative w-full max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-2xl ${className}`}
+      className={`relative w-full max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-2xl my-10 ${className}`}
     >
       <div
         ref={containerRef}
